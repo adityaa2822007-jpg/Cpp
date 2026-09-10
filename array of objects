@@ -1,0 +1,30 @@
+class Student
+{
+public:
+    int age;
+
+    void input()
+    {
+        cin >> age;
+    }
+
+    void display()
+    {
+        cout << age << endl;
+    }
+};
+
+int main()
+{
+    Student s[3];
+
+    for(int i = 0; i < 3; i++)
+    {
+        s[i].input();
+    }
+
+    for(int i = 0; i < 3; i++)
+    {
+        s[i].display();
+    }
+}
